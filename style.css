@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #E2ECBA;
+}
+
+@media screen and (min-width: 961px) {
+/*ここにpc用スタイルを記述*/
+  #view {
+    width: 80%;
+    margin: auto;
+    background-color: white
+  }
+  #header img{
+    width: 100%;
+  }
+  #middle{
+    background-color: white;
+    width: 85%;
+    margin:auto;
+  }
+  #center{
+    margin:0;
+    background-color: white;
+    width: 100%;
+  }
+  #top-left{
+    width: 60%;
+    float: left;
+  }
+  #top-left h1{
+    margin: 3%;
+    color: #559545;
+  }
+  #top-left p{
+    text-align: left;
+  }
+  #center img{
+    width: 30%;
+    margin: 5%;
+  }
+  #top{
+    width: 55%;
+  }
+  #center-content h1 {
+    color: #559545;
+  }
+  #center-contents p{
+    text-align: left;
+    float: left;
+    width: 60%
+  }
+  #top-footer{
+    background-color: #CDD866;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+  #taguchi{
+    text-align: left;
+    color: grey;
+    padding: 5%;
+  }
+  #img1 {
+    width: 45%;
+  }
+  #img2 {
+    width: 20%;
+  }
+  #img3{
+    width: 20%;
+  }
+  #info{
+    font-weight: bold;
+    /* width: 100%; */
+    padding: 5%;
+    background-color: #CDD866;
+  }
+  #info-left{
+    width: 80%;
+    /* text-align: left; */
+    margin: 5%;
+    display: inline-block;
+  }
+  #info-left h1{
+    margin-top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#559545;
+    font-size: 70px;
+    font-weight: 900;
+  }
+  iframe{
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+  }
+
+  #footer{
+    width: 100%;
+  }
+}
+
+/* tablet  */
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+/*ここにtablet用スタイルを記述*/
+}
+
+/* smartPhone */
+@media screen and (max-width: 640px) {
+/*ここにスマホ用スタイルを記述*/
+body{
+  width: 100%;
+}
+#view{
+  background-color: white;
+  width: 100%;
+  position: relative;
+}
+img {
+  max-width: 95%;
+  height: auto;
+}
+h1{
+  color: #559545;
+}
+#top-content{
+  padding: 5%;
+}
+#center-content{
+  padding: 5%;
+}
+#taguchi{
+  padding: 5%;
+}
+button{
+  width: 90%;
+  background-color: #CDD866;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+#info{
+  background-color: #CDD866;
+  }
+}
+
+}
